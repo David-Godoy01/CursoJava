@@ -7,7 +7,10 @@ public class Charrete extends Veiculo {
 		super(motor, volante, passageiros, portas, rodas, carga, capacidadeCarga, comb);
 		
 	}
-	
+public String imprimir() {
+		
+		return "Categoria Charrete selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas: "+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\n"+this.getComb();
+	}
 	
 
 }

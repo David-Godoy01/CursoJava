@@ -19,7 +19,7 @@ public class Caminhao extends Veiculo {
 	}
 	
 	public String imprimir() {
-		return "Categoria Caminhao selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas: "+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nCapacidade de carga"+this.getCapacidadeCarga()+"\nQuantidade de Eixos? "+Eixos;
+		return "Categoria Caminhao selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas: "+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nCapacidade de carga: "+this.getCapacidadeCarga()+"\nQuantidade de Eixos? "+Eixos+"\n"+this.getComb();
 	}
 	
 	

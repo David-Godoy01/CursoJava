@@ -32,7 +32,7 @@ public class Carro extends Veiculo{
 	
 	public String imprimir() {
 		
-		return "Categoria Carro selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas: "+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nPossui Ar Condicionado? "+arCondicionado+"\nPossui Radio? "+radio;
+		return "Categoria Carro selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas: "+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nPossui Ar Condicionado? "+arCondicionado+"\nPossui Radio? "+radio+"\n"+this.getComb();
 	}
 
 }

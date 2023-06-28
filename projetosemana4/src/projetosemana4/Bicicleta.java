@@ -25,7 +25,7 @@ public class Bicicleta extends Veiculo{
 		this.bagageiro = bagageiro;
 	}
 	public String imprimir() {
-		return "Categoria Bicicleta selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas"+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nÉ eletrica? "+Eletrica+"\nTem Bagageiro? "+bagageiro;
+		return "Categoria Bicicleta selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas"+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nÉ eletrica? "+Eletrica+"\nTem Bagageiro? "+bagageiro+"\n"+this.getComb();
 	}
 	
 }

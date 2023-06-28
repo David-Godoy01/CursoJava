@@ -18,7 +18,7 @@ public class Moto extends Veiculo {
 		this.partidaEletrica = partidaEletrica;
 	}
 	public String imprimir() {
-		return "Categoria Moto selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas"+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nTem partida Eletrica? "+partidaEletrica+"\nCombustivel: ";
+		return "Categoria Moto selecionada: "+"\nPossui motor? "+this.isMotor()+"\nPossui Volante? "+this.isVolante()+"\nQuantidade de passageiros: "+this.getPassageiros()+"\nQuantidade de portas: "+this.getPortas()+"\nQuantidade de rodas"+this.getRodas()+"\nÉ de carga?"+this.isCarga()+"\nTem partida Eletrica? "+partidaEletrica+"\n"+this.getComb();
 	}
 
 	
